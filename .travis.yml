@@ -22,8 +22,9 @@ env:
 sudo: false # route your build to the container-based infrastructure for a faster build
 
 deploy:
-  provider: script
+  provider: pages
   skip-cleanup: true
-  script: echo hello
-  script: echo goodbye
-  #script: rsync -Prvz _script/ panthar@sawhorse.dreamhost.com:~/sites/blargflarg.codefriendly.com
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: gh-pages
