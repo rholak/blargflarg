@@ -36,4 +36,4 @@ exclude:
 - vendor/ruby/
 - script/
 - README.md
-- .travis.yml
+- ".travis.yml"
