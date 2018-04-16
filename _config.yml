@@ -25,5 +25,4 @@ plugins:
 excerpt_separator: "<!--more-->"
 show_excerpts: true
 permalink: "/:year/:month/:day/:title/"
-
 theme: jekyll-theme-tactile
