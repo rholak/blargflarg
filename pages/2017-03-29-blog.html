@@ -1,0 +1,26 @@
+---
+layout: default
+title: Bloghidy Bloog
+status: publish
+categories: []
+permalink: /blog/
+tags: []
+
+---
+
+{% asset coruscant-3840x1080.jpg @magick:2x alt='cool scene' %}
+<p>
+{% gist 4066934 %}
+</p>
+
+{% highlight lua %}
+tags[1] = awful.tag(
+  { "☣", "🐱", "⚡", "☃", " " } 
+  , 1
+  , tags.layout)
+-- Monitor 2
+tags[2] = awful.tag(
+  { "☷", "❁", "♳", "♴", " " } 
+  , 2
+  , tags.layout)
+{% endhighlight %}
