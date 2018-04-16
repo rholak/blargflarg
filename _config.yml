@@ -36,4 +36,5 @@ exclude:
 - vendor/ruby/
 - script/
 - README.md
+- LICENSE
 - ".travis.yml"
