@@ -12,8 +12,8 @@ email: your-email@example.com
 description: Robert's Junk
 baseurl: 
 url: 
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: robertholak
+github_username: rholak
 github:
   repoistory_name: beefnuggets
   repository_url: http://github.com/
