@@ -1,4 +1,3 @@
----
 title: Robert of Blog
 timezone: America/Chicago
 collections:
@@ -10,19 +9,28 @@ collections:
     output: true
 email: your-email@example.com
 description: Robert's Junk
-baseurl: 
-url: 
+baseurl: null
+url: null
 twitter_username: robertholak
 github_username: rholak
 github:
   repoistory_name: beefnuggets
-  repository_url: http://github.com/
+  repository_url: 'http://github.com/'
 markdown: kramdown
 plugins:
-- jekyll-feed
-- jekyll-assets
-- jekyll-gist
-excerpt_separator: "<!--more-->"
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-gist
+excerpt_separator: <!--more-->
 show_excerpts: true
-permalink: "/:year/:month/:day/:title/"
-theme: jekyll-theme-tactile
+permalink: '/:year/:month/:day/:title/'
+theme: minima
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - script/
